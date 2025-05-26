@@ -1,0 +1,319 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.collapse navbar-collapse {
+  position: sticky;
+
+}
+.p{
+  position: fixed;
+  
+}
+header {
+  width: 100%;
+  position: sticky;
+  height: 100vh;
+  background-image: linear-gradient(rgba(135, 125, 125, 0.3),
+      rgba(145, 137, 151, 0.3)),
+    url(../assets/pj.jpg);
+
+  background-size: cover;
+  animation: changecontent 7s infinite linear;
+}
+
+.tour {
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+main.homeContent {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar-nav .nav-link {
+  color: black !important;
+}
+
+
+#btn {
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  border-radius: 200px;
+  font-size: 16px;
+
+  cursor: pointer;
+  background-color: lightsteelblue;
+
+}
+
+#btn:hover {
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.change_content:after {
+  content: "";
+  animation: changetext 8s infinite linear;
+  color: #f23838;
+}
+
+@keyframes changetext {
+  0% {
+    content: "Manali";
+  }
+
+  25% {
+    content: "Kochi";
+  }
+
+  50% {
+    content: "Jaipur";
+  }
+
+  75% {
+    content: "Sikkim";
+  }
+
+  100% {
+    content: "Goa";
+  }
+}
+
+change_content:after {
+  animation: changecontent 8s infinite ease-in-out;
+}
+
+
+
+.backgroundimage {
+  background-image: url("background.png");
+  margin: 10px;
+}
+
+.backgroundimage1 {
+  background-image: url("background.png");
+  padding: 80px;
+  margin: 10px;
+}
+
+.heading {
+  color: #2b1f0d;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  margin: 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Georgia;
+}
+
+
+
+
+.manali-container {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 15px;
+  width: 400;
+  box-shadow: 0 10px 10px 0 blue;
+}
+
+.manali-heading {
+  font-style: normal;
+  color: #3a3835;
+  font-size: 35px;
+  text-align: center;
+}
+
+.manali-paragraph {
+  font-size: 14px;
+}
+
+
+.manali-background-image {
+  background-image: url("manalibackground.png");
+  background-size: cover;
+  padding: 25px;
+  margin: 10px;
+
+}
+
+.main-manali-container {
+  background-color: #191970;
+  border-radius: 12px;
+  height: 90px;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.main-manali-heading {
+  color: antiquewhite;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 47px;
+}
+
+.attraction-sites-container {
+  background-color: rgb(210, 155, 155);
+  border-radius: 12px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.attraction-sites-heading {
+  font-size: 20px;
+  font-family: Georgia;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.side-image {
+  width: 170px;
+  height: 170px;
+  padding: 5px;
+}
+
+.kochi-background-image {
+  background-image: url("kochiimage.png");
+  background-size: cover;
+  margin: 10px;
+  padding: 25px;
+}
+
+.main-kochi-container {
+  background-color: #058787d2;
+  border-radius: 15px;
+  height: 90px;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.kochi-heading {
+  color: antiquewhite;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 47px;
+}
+
+.jaipur-background-image {
+  background-image: url("jaipur.jpg");
+
+  background-size: cover;
+  margin: 10px;
+  padding: 25px;
+}
+
+.main-jaipur-container {
+
+  background-color: #ba1d7dd2;
+  border-radius: 15px;
+  height: 90px;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.jaipur-heading {
+  color: rgb(235, 223, 230);
+  text-align: center;
+  font-family: Georgia;
+  font-size: 47px;
+}
+
+.sikkim-image {
+  background-image: url("sikkimimage.png");
+
+  background-size: cover;
+  margin: 10px;
+  padding: 25px;
+}
+
+.sikkim-container {
+  background-color: #098337d2;
+  border-radius: 15px;
+  height: 90px;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.sikkim-heading {
+  color: rgb(235, 235, 235);
+  text-align: center;
+  font-family: Georgia;
+  font-size: 47px;
+}
+
+.goa-image {
+  background-image: url("goaimage.png");
+
+  background-size: cover;
+  margin: 10px;
+  padding: 25px;
+}
+
+.goa-container {
+  background-color: #e7cc45d2;
+  border-radius: 15px;
+  height: 90px;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.goa-heading {
+  color: rgb(23, 21, 21);
+  text-align: center;
+  font-family: Georgia;
+  font-size: 47px;
+}
+
+
+
+
+#aboutUs h1 {
+  text-align: center;
+  color: inherit;
+}
+
+#aboutUs h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+footer {
+  background-color: #434A54;
+  width: 100%;
+  height: 300px;
+  padding-top: 40px;
+  color: white;
+}
+
+footer h5 {
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+
+}
